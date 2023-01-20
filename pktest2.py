@@ -28,7 +28,10 @@ for num in range(1,152):
     response = requests.get(f"https://pokeapi.co/api/v2/pokemon/{num}/")
     resp = response.json()
     pkID = resp["id"]
-    pkName = resp["name"]
+    name = resp["name"]
+    nameSplit = list(name)
+    nameSplit[0] = nameSplit[0].upper()
+    pkName = "".join(nameSplit)
     pkType1 = typeSprites[resp["types"][0]["type"]["name"]]
     pkType2 = ""
     try:
@@ -44,31 +47,5 @@ for num in range(1,152):
         "sprite" : pkSprite
     })
 
-with open('pkdata.json', 'w', encoding='utf-8') as f:
+with open('db.json', 'w', encoding='utf-8') as f:
     json.dump(lst, f, ensure_ascii=False, indent=4)
-# print(lst[1])
-# print(f"#{pkID} {pkName} {pkType1} {pkType2}")
-
-
-# response = requests.get("https://pokeapi.co/api/v2/pokemon/3/")
-# resp = response.json()
-
-# pkID = resp["id"]
-# pkName = resp["name"]
-# pkType1 = resp["types"][0]["type"]["name"]
-# pkType2 = ""
-# try:
-#     pkType2 = resp["types"][1]["type"]["name"]
-# except Exception as e:
-#     pass
-# pkSprite = resp["sprites"]["other"]["official-artwork"]["front_default"]
-
-
-# print(f"#{pkID} {pkName}\n{pkType1} {pkType2}")
-
-# my_json = json.dumps(lst, indent=2)
-# print(my_json)
-
-# my_json = json.dumps(my_dict)
-# print(my_json[0])
-# print(my_json)
