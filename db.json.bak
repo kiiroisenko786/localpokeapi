@@ -1025,21 +1025,21 @@
         {
             "id": 147,
             "name": "Dratini",
-            "type1": "https://archives.bulbagarden.net/media/upload/7/7f/DragonIC_SV.png",
+            "type1": "https://archives.bulbagarden.net/media/upload/7,/7f/DragonIC_SV.png",
             "type2": "",
             "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
         },
         {
             "id": 148,
             "name": "Dragonair",
-            "type1": "https://archives.bulbagarden.net/media/upload/7/7f/DragonIC_SV.png",
+            "type1": "https://archives.bulbagarden.net/media/upload/7,/7f/DragonIC_SV.png",
             "type2": "",
             "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
         },
         {
             "id": 149,
             "name": "Dragonite",
-            "type1": "https://archives.bulbagarden.net/media/upload/7/7f/DragonIC_SV.png",
+            "type1": "https://archives.bulbagarden.net/media/upload/7,/7f/DragonIC_SV.png",
             "type2": "https://archives.bulbagarden.net/media/upload/d/d7/FlyingIC_SV.png",
             "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
         },
