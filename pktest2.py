@@ -22,7 +22,11 @@ typeSprites = {
     "fairy" : "https://archives.bulbagarden.net/media/upload/c/c6/FairyIC_SV.png"
 }
 
-lst = []
+pkDict = {
+    "pokemon" : [
+
+    ]
+}
 
 for num in range(1,152):
     response = requests.get(f"https://pokeapi.co/api/v2/pokemon/{num}/")
@@ -39,7 +43,7 @@ for num in range(1,152):
     except Exception as e:
         pass
     pkSprite = resp["sprites"]["other"]["official-artwork"]["front_default"]
-    lst.append({
+    pkDict["pokemon"].append({
         "id" : pkID,
         "name" : pkName,
         "type1" : pkType1,
@@ -48,4 +52,4 @@ for num in range(1,152):
     })
 
 with open('db.json', 'w', encoding='utf-8') as f:
-    json.dump(lst, f, ensure_ascii=False, indent=4)
+    json.dump(pkDict, f, ensure_ascii=False, indent=4)
