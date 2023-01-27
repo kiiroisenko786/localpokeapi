@@ -2,24 +2,24 @@ import json
 import requests
 
 typeSprites = {
-    "normal" : "https://archives.bulbagarden.net/media/upload/0/08/NormalIC_SV.png",
-    "fighting" : "https://archives.bulbagarden.net/media/upload/0/0f/FightingIC_SV.png",
-    "flying" : "https://archives.bulbagarden.net/media/upload/d/d7/FlyingIC_SV.png",
-    "poison" : "https://archives.bulbagarden.net/media/upload/9/9d/PoisonIC_SV.png",
-    "ground" : "https://archives.bulbagarden.net/media/upload/f/f8/GroundIC_SV.png",
-    "rock" : "https://archives.bulbagarden.net/media/upload/3/32/RockIC_SV.png",
-    "bug" : "https://archives.bulbagarden.net/media/upload/d/d1/BugIC_SV.png",
-    "ghost" : "https://archives.bulbagarden.net/media/upload/2/2c/GhostIC_SV.png",
-    "steel" : "https://archives.bulbagarden.net/media/upload/b/b8/SteelIC_SV.png",
-    "fire" : "https://archives.bulbagarden.net/media/upload/a/a2/FireIC_SV.png",
-    "water" : "https://archives.bulbagarden.net/media/upload/d/de/WaterIC_SV.png",
-    "grass" : "https://archives.bulbagarden.net/media/upload/7/7b/GrassIC_SV.png",
-    "electric" : "https://archives.bulbagarden.net/media/upload/7/77/ElectricIC_SV.png",
-    "psychic" : "https://archives.bulbagarden.net/media/upload/9/96/PsychicIC_SV.png",
-    "ice" : "https://archives.bulbagarden.net/media/upload/1/13/IceIC_SV.png",
-    "dragon" : "https://archives.bulbagarden.net/media/upload/7,/7f/DragonIC_SV.png",
-    "dark" : "https://archives.bulbagarden.net/media/upload/3/30/DarkIC_SV.png",
-    "fairy" : "https://archives.bulbagarden.net/media/upload/c/c6/FairyIC_SV.png"
+    "normal" : "NormalIC_SV.png",
+    "fighting" : "FightingIC_SV.png",
+    "flying" : "FlyingIC_SV.png",
+    "poison" : "PoisonIC_SV.png",
+    "ground" : "GroundIC_SV.png",
+    "rock" : "RockIC_SV.png",
+    "bug" : "BugIC_SV.png",
+    "ghost" : "GhostIC_SV.png",
+    "steel" : "SteelIC_SV.png",
+    "fire" : "FireIC_SV.png",
+    "water" : "WaterIC_SV.png",
+    "grass" : "GrassIC_SV.png",
+    "electric" : "ElectricIC_SV.png",
+    "psychic" : "PsychicIC_SV.png",
+    "ice" : "IceIC_SV.png",
+    "dragon" : "DragonIC_SV.png",
+    "dark" : "DarkIC_SV.png",
+    "fairy" : "FairyIC_SV.png"
 }
 
 pkDict = {
